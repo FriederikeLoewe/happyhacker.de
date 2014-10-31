@@ -1,10 +1,10 @@
 # Site settings
-title: Your awesome title
-subtitle: Blubb
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "HappyHacker.de"
+subtitle: "Wie du ein glücklicher Programmier werden kannst"
+email: rike@loewe.io
+description: "Ein glücklicher Software-Entwickler zu sein ist kein Schicksal. Es ist eine aktive Entscheidung und dann eine Reihe neuer Gewohnheiten. Lass dich inspirieren und finde heraus, wie es geht auf HappyHacker.de"
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://happyhacker.de"
 
 # Build settings
 markdown: kramdown

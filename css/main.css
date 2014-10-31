@@ -18,9 +18,19 @@ body {
 /********** Header **********/
 
 .page-header {
-  padding: 0px 20px 10px;
+	position: relative;
   border-bottom: none;
+	background-image: url(../img/smiley.png);
+	background-size: 100%;
+	background-position: 0px center ;
+	background-repeat:no-repeat;
+	margin:0px 0px -10px;
+	padding: 10px 40px 50px;	
+	
 }
+
+.page-header h1 {text-shadow: black 0.1em 0.1em 0.2em;}
+.page-header h1 small {color: #ddd;}
 
 .page-header h1 a         { color: #333; text-decoration: none; }
 .page-header h1 a:hover   { color: #333; text-decoration: none; }

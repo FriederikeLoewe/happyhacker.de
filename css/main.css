@@ -1,5 +1,14 @@
 /********** General Page layout **********/
 
+@font-face {
+  font-family: 'alternate_gothic_no3_d';
+  src: url('/fonts/ufonts.com_alternate_gothic_no3_d.eot#') format('embedded-opentype'), 
+       url('/fonts/ufonts.com_alternate-gothic-no3-d.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 13pt;
@@ -17,24 +26,30 @@ body {
 
 /********** Header **********/
 
-.page-header {
+.page-heading {
 	position: relative;
   border-bottom: none;
-	background-image: url(../img/smiley.png);
-	background-size: 100%;
-	background-position: 0px center ;
-	background-repeat:no-repeat;
-	margin:0px 0px -10px;
-	padding: 10px 40px 50px;	
-	
+	background-color:#faa61a;
+	margin-top: -20px;
+	height: 150px;
+}
+.page-heading img {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	height: 75%;
 }
 
-.page-header h1 {text-shadow: black 0.1em 0.1em 0.2em;}
-.page-header h1 small {color: #ddd;}
+.page-heading h1 {
+	padding: 40px 40px;	
+	font-family: "alternate_gothic_no3_d",sans-serif;
+}
 
-.page-header h1 a         { color: #333; text-decoration: none; }
-.page-header h1 a:hover   { color: #333; text-decoration: none; }
-.page-header h1 a:visited { color: #333; text-decoration: none; }
+.page-heading h1 small {color: #ddd;}
+
+.page-heading h1 a         { color: #333; text-decoration: none; }
+.page-heading h1 a:hover   { color: #333; text-decoration: none; }
+.page-heading h1 a:visited { color: #333; text-decoration: none; }
 
 /********** Navigation **********/
 

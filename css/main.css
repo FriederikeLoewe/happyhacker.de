@@ -14,14 +14,20 @@ body {
   font-size: 13pt;
   line-height: 1.5;
   font-weight: 300;
+background-color: #FfFfdd
 }
 
 .container {
   margin-top: 30px;
-  padding: 0px 0px 20px;
-  -webkit-box-shadow: 0px 0px 20px 3px rgba(112,112,112,1);
-  -moz-box-shadow: 0px 0px 20px 3px rgba(112,112,112,1);
-  box-shadow: 0px 0px 20px 3px rgba(112,112,112,1);
+  padding: 0px 0px 00px 0px;
+  -webkit-box-shadow: 10px 10px 5px -4px rgba(112,112,112,1);
+  -moz-box-shadow: 10px 10px 5px -4px rgba(112,112,112,1);
+  box-shadow: 10px 10px 5px -4px rgba(112,112,112,1);
+	background-color:white;	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
 }
 
 /********** Header **********/
@@ -31,11 +37,18 @@ body {
   border-bottom: none;
 	background-color:#faa61a;
 	margin-top: -20px;
-	height: 150px;
+	margin-bottom: -10px;
+	height: 160px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
 }
 .page-heading img {
 	position: absolute;
-	right: 20px;
+	right: 30px;
 	top: 20px;
 	height: 75%;
 }
@@ -45,7 +58,7 @@ body {
 	font-family: "alternate_gothic_no3_d",sans-serif;
 }
 
-.page-heading h1 small {color: #ddd;}
+.page-heading h1 small {color: #fff; letter-spacing: 0.1em;}
 
 .page-heading h1 a         { color: #333; text-decoration: none; }
 .page-heading h1 a:hover   { color: #333; text-decoration: none; }
@@ -128,7 +141,27 @@ body {
 
 .profiles {
   margin-top: 30px;
-  margin-bottom: 30px;
+	margin-bottom:30px;
+  
+}
+.profile-box {
+	background-color:#faa61a;
+	margin-top:30px;
+
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+/*	-webkit-box-shadow: 10px 10px 5px -4px rgba(112,112,112,1);
+	-moz-box-shadow: 10px 10px 5px -4px rgba(112,112,112,1);
+	box-shadow: 10px 10px 5px -4px rgba(112,112,112,1);*/
+}
+.profile-row{
+	padding-left:15px;
+	padding-right: 15px;
+
 }
 
 .profiles ul {
@@ -143,7 +176,6 @@ body {
 
 
 /********** Footer **********/
-
 .footer-links {
   padding-top: 30px;
   margin-bottom: 30px;

@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col-md-8 col-md-offset-2">
+  <div class="col-md-9 col-md-offset-2">
 
-    <div class="post-heading"><h3>{{ page.title }}</h3></div>
-    <div class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</div>
+    <div class="post-heading"><h2>{{ page.title }}</h2></div>
+    <div class="post-meta">{{ page.date | date: "%d. %m. %Y" }}</div>
     <div class="post-content">{{ content }}</div>
 
   </div>
@@ -15,14 +15,14 @@ layout: default
 <div class="row">
   <div class="post-links col-sm-4 col-sm-offset-2">
     {{ if page.previous != nil }}
-      <h6>previous article</h6>
+      <h5>vorhergehender Artikel</h5>
       <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
     {{ endif }}
   </div>
 
   {{ if page.next != nil }}
     <div class="post-links col-sm-4 col-sm-offset-2">
-      <h6>next article</h6>
+      <h5>nächster Artikel</h5>
       <a href="{{ page.next.url }}">{{ page.next.title }}</a>
     </div>
   {{ endif }}

@@ -37,7 +37,7 @@ background-color: #FfFfdd
   border-bottom: none;
 	background-color:#faa61a;
 	margin-top: -20px;
-	margin-bottom: -10px;
+	/*margin-bottom: -10px;*/
 	height: 160px;
 -webkit-border-top-left-radius: 5px;
 -webkit-border-top-right-radius: 5px;
@@ -101,6 +101,9 @@ border-top-right-radius: 5px;
   margin-top: 5px;
 }
 
+.sidebar-heading {
+	margin-top:0px;
+}
 
 
 /********** Index Page **********/

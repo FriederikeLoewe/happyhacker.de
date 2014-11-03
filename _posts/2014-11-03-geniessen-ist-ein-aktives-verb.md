@@ -5,7 +5,7 @@ description: "Mir ist klar geworden, dass ich diejenige bin, die entscheidet, ob
 category: Glücksaktivitäten
 tags: []
 ---
-{% include JB/setup %}
+
 
 Ich habe gelesen, dass das Genießen von Kleinigkeiten eine Handlung ist, die einen glücklicher macht. Hört sich jetzt nicht besonders spektakulär an, oder?
 Spektakulär daran fand ich, dass mir auf einmal klar geworden ist, dass ich mir das vornehmen muss. Der Genuss wartet nicht einfach nach einem langen Arbeitstag auf mich oder lauert mir im lang ersparten Urlaub auf. Ich genieße nicht automatisch, nur weil die Umstände auf einmal endlich toll genug sind.

@@ -15,17 +15,26 @@ layout: default
   </div>
 </div>
 
-{% for post in site.posts limit: 5 %} 
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-      <div class="post-summary">
-        <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
-        <p>
-          {{ post.content | strip_html | truncatewords:60}} 
-          <br><a class="pull-right" href="{{post.url}}">weiterlesen...</a>
-        </p>
-      </div>
-    </div>
-  </div>
+{% for post in site.posts limit: 5 %}
+<div class="row">
+	<div class="col-md-10 col-md-offset-1">
+		<div class="post-summary">
+			<h3><a href="{{post.url}}">{{ post.title }}</a></h3>
+			<div class="row">
+				{% if post.pic != %}
+					<div class="col-md-3">
+						<img src=/img/blogbilder/{{ post.pic }}>
+					</div>
+					<div class="col-md-9">
+				{% else %}
+					<div class="col-md-12">
+				{% endif %}
+				{{ post.content | strip_html | truncatewords:42}}
+				<br><a class="pull-right" href="{{post.url}}">weiterlesen...</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
 {% endfor %} 
 

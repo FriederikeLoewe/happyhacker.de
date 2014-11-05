@@ -3,7 +3,9 @@ layout: post
 title: "\"Genießen\" ist ein aktives Verb"
 description: "Mir ist klar geworden, dass ich diejenige bin, die entscheidet, ob ich eine Situation genieße - oder nicht."
 category: Glücksaktivitäten
-tags: []
+pic: "gummibaerchen.jpg"
+credit-link: ""
+credit-name: ""
 ---
 
 
@@ -13,8 +15,6 @@ Spektakulär daran fand ich, dass mir auf einmal klar geworden ist, dass ich mir
 Natürlich, manchmal bringen mich andere Menschen oder bestimmte Situationen in die richtige Stimmung und dann genieße ich den Moment. Aber wenn ich innerlich angespannt bin, das Gefühl habe, dass ich meinen Tag passiv erdulde oder ähnlich schlecht gelaunt bin, dann hindere ich eigentlich mein Umfeld daran, so weit zu mir vorzudringen. Und dann kann es mir passieren, dass ich einen ganzen langen Tag mit meinem kleinen Sohn verbringe, der fröhlich mit mir toben will und ich ärgere mich darüber, dass er sich nicht nach meinem Zeitplan richtet.
 
 Aber als mir dann klar geworden ist, dass _ich_ gefragt bin, dass _ich selbst etwas tun muss um meine Situation zu verbessern_, habe ich beschlossen, das jetzt zu üben. Mein Sohn war im Bett, die Wohnung war ruhig und ich habe mir eine Kerze angemacht, mir ein großes Glas Wasser eingeschenkt und mir die leckeren Fruchtsaftgummibärchen geholt. Ich habe ein Gummibärchen ausgewählt und habe mir vorgenommen, dieses aktiv und bewusst zu genießen.
-
-<img src="{{ site.url }}/img/blogbilder/gummibaerchen.jpg">
 
 Das war gar nicht so einfach. Ich esse Süßigkeiten zwar auch sonst gerne langsam, aber diesmal kam es mir vor wie eine Ewigkeit. Meine Gedanken sind ständig abgeschweift und ich konnte mich nicht gut entspannen. Aber nach einer ganzen Weile wurde es endlich einfacher. Und in den nächsten Tagen habe ich immer wieder kleine Momente gefunden, die ich spontan genießen konnte: Wind auf meinem Gesicht, eine heiße Dusche, Kekse essen und Tee trinken, sogar in der Nacht aufwachen zum Stillen - auf einmal habe ich wieder mehr gefühlt und mehr genossen.
 

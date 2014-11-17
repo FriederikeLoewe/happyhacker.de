@@ -11,8 +11,8 @@ layout: default
 		 {% if page.pic != %}
 			<div class="post-image">
 			<img src=/img/blogbilder/{{ page.pic }}><br>
-			{% if page.credit != %}
-				Foto: <a href=" {{ page.credit-link }}" target="_blank"> {{ page.credit-name }} </a>
+			{% if page.credit-link != %}
+				Bild: <a href=" {{ page.credit-link }}" target="_blank"> {{ page.credit-name }} </a>
 			{% endif %}
 			</div>
 		{% endif %}

@@ -119,14 +119,23 @@ margin-top: 15px;
 
 .sidebar-posts ul {
   list-style-type:none;
-  margin: 0px;
+  margin: 30px;
   padding-left: 5px;
+	
+	
 }
 
 .sidebar-posts ul li {
-  margin-top: 5px;
+  margin-top: 10px;
+	text-indent:-30px;
 }
 
+.sidebar-posts li:before {    
+font-family: 'FontAwesome';
+content: '\f1ea\A0';
+
+
+}
 .sidebar-heading {
 	margin-top:0px;
 }
